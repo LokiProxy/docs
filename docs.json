@@ -25,7 +25,14 @@
             "group": "Customization",
             "pages": [
               "essentials/settings",
-              "essentials/navigation"
+              {
+                "group": "编辑",
+                "icon": "pencil",
+                "pages": [
+                  "essentials/settings",
+                  "essentials/settings"
+                ]
+              }
             ]
           },
           {
